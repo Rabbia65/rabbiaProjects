@@ -1,0 +1,36 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f4f8;
+    margin: 0;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    
+}
+#invitation{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 35px;
+    border-radius: 10px;
+    width: 100%;
+}
+.dateAndtime, .vanue, .description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+}
+.button{
+    background-color:  #4CAF50;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color: #45a049;
+}
